@@ -12,9 +12,14 @@ Explore the capabilities of AWS Neptune with ease using this educational reposit
 ## Get Started
 
 1. Clone the repository to your local environment.
-2. Follow the setup instructions in the documentation to deploy the Neptune Playground.
+2. Follow the setup instructions in the documentation below to deploy the Neptune Playground.
 3. Explore the provided examples, modify queries, and experiment with graph data.
 
+```bash
+cd neptune-playground
+docker build -t neptune-playground:latest .
+docker run -p 80:9999 neptune-playground:latest
+```
 ## Contributions
 
 Contributions and feedback are welcome! Whether you're enhancing existing functionalities, adding new features, or improving documentation, your contributions can help make the Neptune Playground a valuable resource for the community.
